@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Boas-Vindas</title>
+  <style>
+    /* Estilos básicos de reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Estilos para a barra de navegação */
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+    }
+
+    nav a:hover {
+      background-color: #45a049;
+      border-radius: 5px;
+    }
+
+    /* Estilos para o conteúdo principal */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 70vh;
+      background: url('sua-imagem.jpg') no-repeat center center/cover;
+      color: #333;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      max-width: 600px;
+    }
+
+    .button {
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+
+    /* Estilos para o rodapé */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho com navbar -->
+  <header>
+    <h1>Bem-vindo ao Nosso Site</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Serviços</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Seção principal de boas-vindas -->
+  <div class="hero">
+    <h1>Seja Bem-vindo!</h1>
+    <p>Descubra tudo o que temos a oferecer para tornar sua experiência incrível.</p>
+    <button class="button">Saiba Mais</button>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Nosso Site. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
